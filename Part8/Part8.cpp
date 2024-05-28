@@ -23,7 +23,7 @@ public:
 };
 
 class pelajar : public orang {
-public:
+    public:
 
     pelajar(int pUmur) :
         orang(pUmur)
@@ -38,7 +38,7 @@ public:
     budi(int pUmur) :
         pekerja(pUmur),
         pelajar(pUmur)
-
+       
     {
         cout << "Budi dibuat\n" << endl;
     }
