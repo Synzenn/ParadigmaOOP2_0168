@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class baseClass  {
+class baseClass {
 public:
     virtual void perkenalan() {
         cout << "Hallo saya Function dari base class";
@@ -14,5 +14,7 @@ public:
     }
 };
 int main() {
-    
+    derivedClass a;
+    a.perkenalan();
+    return 0;
 }
