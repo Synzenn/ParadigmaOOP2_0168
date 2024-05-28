@@ -12,6 +12,14 @@ public:
     //}
 };
 
+class joko :public seseorang {
+public:
+    //deklarasi
+    void pesan() {
+        //implemenasi
+        cout << "Pesan dari joko" << endl;
+    }
+};
 
 
 int main() {
